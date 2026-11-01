@@ -1,3 +1,4 @@
+# Modified 2026-10-29 for pietoolchain: Removed unused tools.
 noinst_LTLIBRARIES = libstuff.la
 
 libstuff_la_CFLAGS = -I$(top_srcdir)/include -I$(top_srcdir)/include/foreign -D__DARWIN_UNIX03 $(WARNINGS) $(LTO_DEF) -DPROGRAM_PREFIX="\"$(PROGRAM_PREFIX)\"" $(ENDIAN_FLAG)
@@ -45,7 +46,6 @@ libstuff_la_SOURCES =  \
 	version_number.c  \
 	writeout.c \
 	write64.c \
-	coff_bytesex.c \
 	args.c \
 	align.c \
 	depinfo.c \

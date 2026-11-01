@@ -1,4 +1,5 @@
-SUBDIRS=libstuff libmacho ar misc as otool efitools ld64 man
+# Modified 2026-10-29 for pietoolchain: Removed unused tools.
+SUBDIRS=libstuff libmacho ar misc as ld64 man
 
 ACLOCAL_AMFLAGS = -I m4
 

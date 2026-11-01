@@ -1,3 +1,4 @@
+# Modified 2026-10-29 for pietoolchain: Removed unused tools.
 AC_INIT([cctools], [1030.6.3], [t.poechtrager@gmail.com])
 
 AC_CANONICAL_BUILD
@@ -569,8 +570,6 @@ AC_CONFIG_FILES([ar/Makefile])
 AC_CONFIG_FILES([as/Makefile])
 AC_CONFIG_FILES([man/Makefile])
 AC_CONFIG_FILES([misc/Makefile])
-AC_CONFIG_FILES([otool/Makefile])
-AC_CONFIG_FILES([efitools/Makefile])
 AC_CONFIG_FILES([ld64/Makefile])
 AC_CONFIG_FILES([ld64/doc/man/Makefile])
 AC_CONFIG_FILES([ld64/src/Makefile])
@@ -579,6 +578,5 @@ AC_CONFIG_FILES([ld64/src/mach_o/Makefile])
 AC_CONFIG_FILES([ld64/src/ld/Makefile])
 AC_CONFIG_FILES([ld64/src/ld/parsers/Makefile])
 AC_CONFIG_FILES([ld64/src/ld/passes/Makefile])
-AC_CONFIG_FILES([ld64/src/other/Makefile])
 
 AC_OUTPUT
